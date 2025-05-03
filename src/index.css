@@ -1,13 +1,96 @@
+/* Base styles from create-react-app */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* Color Guessing Game Styles */
+
+/* General Styles */
+.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Header Styles */
+.header {
+  padding: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Form Styles */
+.form-container {
+  margin: 1rem auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.submit-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.message {
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+/* Success Message Styles */
+.success-container {
+  text-align: center;
+  margin: 1rem auto;
+  max-width: 400px;
+}
+
+.success-image {
+  max-width: 300px;
+  margin: 1rem auto;
+}
+
+.play-again-button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+/* Stats Styles */
+.stats {
+  margin-top: 2rem;
+  font-style: italic;
+  text-align: center;
 }
