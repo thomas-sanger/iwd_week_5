@@ -45,6 +45,7 @@ function App() {
     setIsCorrect(false);
   };
 
+  // Render the app
   return (
     <div className="app">
       <Header color={correctColor} />

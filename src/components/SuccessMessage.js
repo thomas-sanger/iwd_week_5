@@ -2,6 +2,7 @@ import React from "react";
 import happy_cattle_dog from "../happy_cattle_dog.jpg";
 
 const SuccessMessage = ({ resetGame }) => {
+  // Render the success message with an image and a button to play again
   return (
     <div className="success-container">
       <div className="success-image">

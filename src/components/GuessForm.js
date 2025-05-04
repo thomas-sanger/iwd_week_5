@@ -7,6 +7,7 @@ const GuessForm = ({ userGuess, setUserGuess, handleSubmit, message }) => {
     handleSubmit();
   };
 
+  // Render the form with an input field and a submit button
   return (
     <div className="form-container">
       <div>
